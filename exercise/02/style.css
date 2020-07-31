@@ -1,0 +1,44 @@
+
+.div-1 {
+    background-color:grey;
+}
+
+.div-2 {
+    background-color: blue;
+}
+
+.div-3 {
+    background-color: green;
+}
+
+
+/* over */
+/* to inline */
+h1 {
+    display: inline;
+}
+
+h2  {
+    display: inline;
+}
+
+p {
+    display: inline;
+}
+
+li {
+    display: inline;
+}
+
+/* to block */
+sup {
+    display: block
+}
+
+span {
+    display: block;
+}
+
+a {
+    display: block;
+}

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="menu-bar">
+        <div class="gramedia-icon"">
+            <img src="./img/gramedia-icon.svg" alt="">
+        </div>
+
+        <div class="kategori">Kategori<span>▼</span></div>
+        <div class="search">
+            <form class="form-search" >
+                <input class="input-search" placeholder="Cari Produk, judul buku, Penulis">
+            </form>        
+        </div>
+
+        <div class="login">Masuk</div>
+
+        <div class="shop-cart">
+            <img src="./img/cart_106649.png" alt="">
+            <span id="result-whistlist"></span>
+        </div>
+    </header>
+
+    <section class="level-cat">
+        <ul class="ul-level-cat">
+            <li>Home</li>
+            <li>/ Buku</li>
+            <li>/ Bantuan Hukum</li>
+            <li>/ Pengembangan diri</li>
+        </ul>
+    </section>
+
+    <section class="container">
+          <div class="flex-container-1">
+            <div id = "left-container-1">
+                <img id="myImg" src="./img/9786024526986_Sebuah-Seni-Untuk-Bersikap-Bodo-Amat.jpg" alt="Sebuah-Seni-Untuk-Bersikap-Bodo-Amat.">
+
+                <div id="myModal" class="modal">
+                    <span class="close">X</span>
+                    <img class="modal-content" id="img01">
+                </div>
+                <div class="share-container">
+                    <span >Bagikan: 
+                        <a href=""><img class="share-icon"  src="./img/facebook-9.svg" alt=""></a>
+                        <a href=""><img class="share-icon"  src="./img/twitter-5.svg" alt=""></a>
+                        <a href=""><img class="share-icon"  src="./img/group-9.svg" alt=""></a>
+                    </span>
+                </div>
+                
+            </div>
+
+            <div id="middle-container-1">
+                <span class="book-title">
+                   <h1>Sebuah Seni untuk Bersikap Bodo Amat</h1>
+                </span>
+
+               <h2>Mark Manson</h2>
+            </div>
+
+            <div id ="right-container-1">
+                <div class="box-price">
+                    <div class="box-content">
+                        <div id="box-content-text">
+                            <span class="box-price-text-1">Soft Cover</span>
+                            <span class="text-i">i</span>
+                        </div>
+                        <p class="box-price-text-2">Rp. 67.000</p>
+                    </div>
+                </div>
+                <div class="btn">
+                    <button class="btn-beli">BELI SEKARANG</button>
+                    <button class="btn-wishlist" onclick="counterWhistList()" >TAMBAH WISHLIST</button>
+                </div>
+
+                <div class="asurance-info">
+                    <p><img id="img-asurance" src="./img/insurance.png" alt=""><strong>Tersedia </strong> Asuransi Pengiriman. <span class="text-i-2">i</span></p>
+                </div>
+
+
+            </div>
+
+        </div>
+    </section>
+
+<section class="content-book">
+    <div class="tab">
+      <button class="tablinks active" onclick="openTabs(event, 'Deskripsi')">Deskripsi</button>
+      <button class="tablinks" onclick="openTabs(event, 'Detail')">Detail</button>
+    </div>
+
+    <div id="Deskripsi" class="tabcontent">
+      <p>"Selama beberapa tahun belakangan, Mark Manson—melalui blognya yang sangat populer—telah membantu mengoreksi harapan-harapan delusional kita, baik mengenai diri kita sendiri maupun dunia. Ia kini menuangkan buah pikirnya yang keren itu di dalam buku hebat ini.</p>
+      <br>
+      <p>“Dalam hidup ini, kita hanya punya kepedulian dalam jumlah yang terbatas. Makanya, Anda harus bijaksana dalam menentukan kepedulian Anda.” Manson menciptakan momen perbincangan yang serius dan mendalam, dibungkus dengan cerita-cerita yang menghibur dan “kekinian”, serta humor yang cadas. Buku ini merupakan tamparan di wajah yang menyegarkan untuk kita semua, supaya kita bisa mulai menjalani kehidupan yang lebih memuaskan, dan apa adanya."</p>
+    </div>
+
+    <div id="Detail" class="tabcontent">
+      <p>Jumlah Halaman : 256</p>
+      <p>Bahasa         : Indonesia</p>
+      <p>Penerbit       : Gramedia Widiasarana Indonesia</p>
+    </div>
+
+</section>
+
+<script src="./index.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,27 @@
+body {
+  background-color: black;
+}
+
+h1 {
+  color: white;
+}
+
+#para1 {
+  text-align: left;
+}
+
+#para2 {
+  text-align: center;
+}
+
+#para3 {
+  text-align: right;
+}
+
+p {
+color:white;
+}
+
+li {
+color: white;
+}

@@ -1,0 +1,41 @@
+#daftar-menu {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 50%;
+}
+
+#daftar-menu th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: rgb(18, 95, 21);
+  color: white;
+}
+
+#daftar-menu td, #daftar-menu th{
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#daftar-menu tr:nth-child(even) {
+  background-color: beige;
+}
+
+.table-2 {
+  border: 1px solid;
+  width: 20%;
+}
+
+table, td, th {  
+    border: 1px solid;
+    text-align: center;
+  }
+  
+table {
+    border-collapse: collapse;
+    width: 20%;
+  }
+  
+th, td {
+    padding: 5px;
+  }

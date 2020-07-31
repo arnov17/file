@@ -1,0 +1,11 @@
+$textColor : black;
+$bgColorHeaer : 'yellow';
+
+content {
+    color : $textColor;
+}
+
+header {
+    color : $textColor;
+    background-color : $bgColorHeaer;
+}
